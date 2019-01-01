@@ -29,3 +29,10 @@ corridor AC could be switched OFF to ensure that the power consumption is not mo
 than the specified maximum value
 - When the power consumption goes below the specified maximum value the ACs that
 were switched OFF previously must be switched ON
+
+Motion in sub corridors is input to the controller. Controller need to keep track and optimise the
+power consumption.
+Write a program that takes input values for Floors, Main corridors, Sub corridors and takes
+different external inputs for motion in sub corridors and for each input prints out the state of all
+the lights and ACs in the hotel. For simplicity, assume that the controller is operating at the night
+time. Sample input and output below.
