@@ -17,3 +17,4 @@ The way the hotel equipments are organised and the requirements for the Controll
 - Both main and sub corridor lights consume 5 units of power when ON
 - Both main and sub corridor have independently controllable ACs
 - Both main and sub corridor ACs consume 10 units of power when ON
+
