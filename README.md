@@ -10,3 +10,10 @@ So the Hotel Management has installed sensors, like Motion Sensors, etc at appro
 and have approached you to program a Controller which takes inputs from these sensors and
 controls the various equipments.
 
+The way the hotel equipments are organised and the requirements for the Controller is below:
+- A Hotel can have multiple floors
+- Each floor can have multiple main corridors and sub corridors
+- Both main corridor and sub corridor have one light each
+- Both main and sub corridor lights consume 5 units of power when ON
+- Both main and sub corridor have independently controllable ACs
+- Both main and sub corridor ACs consume 10 units of power when ON
