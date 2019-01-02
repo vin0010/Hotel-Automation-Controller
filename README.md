@@ -52,4 +52,5 @@ No movement in Floor 1, Sub corridor 2 for a minute | Floor 1 <br> Main corridor
 
 Since the hotel management is trying this for the first time, they would be changing the
 requirements around which electronic equipments are controlled and the criteria based on which
-they are controlled.
+they are controlled, so the solution design should be flexible enough to absorb these
+requirement changes without significant change to the system.
