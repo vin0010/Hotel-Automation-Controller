@@ -46,21 +46,11 @@ Sub corridors per floor: 2
 
 Subsequent Inputs from Sensors | Output from controller for corresponding sensor input
 ------------ | -------------
-Default state (when the program is first run) | Floor 1 <br>
-<br> Main corridor 1
-<br> Light 1 : ON
-<br> AC : ON
-<br> Light 1 : OFF
-<br> Sub corridor 2
-<br> Light 2 : OFF
-<br> Floor 2
-<br> Main corridor 1
-<br> Light 1 : ON
-<br> AC : ON
-<br> Sub corridor 1
-<br> Light 1 : OFF
-<br> AC : ON
-<br> Sub corridor 2
-<br> Light 2 : OFF
-<br> AC : ON
-asds | sadasd
+Default state (when the program is first run) | Floor 1 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Light 1 : OFF <br> Sub corridor 2 <br> Light 2 : OFF <br> Floor 2 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Sub corridor 1 <br> Light 1 : OFF <br> AC : ON <br> Sub corridor 2 <br> Light 2 : OFF <br> AC : ON
+Movement in Floor 1, Sub corridor 2 | Floor 1 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Sub corridor 1 <br> Light 1 : OFF <br> AC : OFF <br> Sub corridor 2 <br> Light 2 : ON <br> AC : ON <br> Floor 2 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Sub corridor 1 <br> Light 1 : OFF  <br> AC : ON <br> Sub corridor 2 <br> Light 2 : OFF <br> AC : ON
+No movement in Floor 1, Sub corridor 2 for a minute | Floor 1 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Sub corridor 1 <br> Light 1 : OFF <br> AC : ON <br> Sub corridor 2 <br> Light 2 : OFF <br> AC : ON <br> Floor 2 <br> Main corridor 1 <br> Light 1 : ON <br> AC : ON <br> Sub corridor 1 <br> Light 1 : OFF <br> AC : ON <br> Sub corridor 2 <br> Light 2 : OFF <br> AC : ON <br>
+
+Since the hotel management is trying this for the first time, they would be changing the
+requirements around which electronic equipments are controlled and the criteria based on which
+they are controlled, so the solution design should be flexible enough to absorb these
+requirement changes without significant change to the system.
